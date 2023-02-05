@@ -1,0 +1,24 @@
+.dog-info {
+    position: relative;
+    z-index: 0;
+}
+
+.dog-info__ball {
+    position: absolute;
+    top: 0;
+    right: -100px;
+    transition-property: top, right, transform;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    z-index: -1;
+}
+
+.dog-info__button:hover + .dog-info__ball {
+    transform: rotate(270deg);
+    top: -60px;
+    right: 400px;
+}
+
+.dog-info_h {
+    z-index: 1;
+}

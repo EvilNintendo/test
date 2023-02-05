@@ -1,0 +1,10 @@
+.promise-card {
+    display: flex;
+    align-items: flex-start; 
+    margin: 20px 0;
+}
+
+.promise-card__img {
+    margin-right: 20px;
+    height: 63px;
+}

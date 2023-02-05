@@ -1,0 +1,36 @@
+.social-links {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+}
+
+.social-links__item {
+    margin-right: 30px;
+}
+
+.social-links__link {
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-position: center;
+}
+
+.social-links__link:hover {
+    opacity: 0.8;
+}
+
+.social-links__link_fb {
+    background-image: url(../img/social-network/facebook.png);
+}
+
+.social-links__link_tw {
+    background-image: url(../img/social-network/twitter.png);
+}
+
+.social-links__link_inst {
+    background-image: url(../img/social-network/instagram.png);
+}
+
+.social-links__link_youtube {
+    background-image: url(../img/social-network/youtube.png);
+}

@@ -1,0 +1,12 @@
+.text {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.text_gray {
+    color: #4B4B4B;
+}
+
+.text_white {
+    color: #F5F5F5;
+}

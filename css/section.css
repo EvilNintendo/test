@@ -1,0 +1,51 @@
+.section {
+    padding: 100px 0;
+}
+
+.section_white {
+    background-color: #F5F5F5;
+}
+
+.section_with-img {
+    height: 765px;
+    padding: 0;
+}
+
+.section__block-with-img {
+    position: absolute;
+    margin-top: -80px;
+}
+
+.section_dog {
+    height: 500px;
+    background-color: #29C3BE;
+    background-image: url("../img/BG-dog.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section_service {
+    background-image: url(../img/blob-3.png);
+    background-repeat: no-repeat;
+    background-position: 100% -550px;
+}
+
+.section_contact {
+    background-image: url("../img/contact-image.jpg");
+    background-size: cover;
+    height: 980px;
+}
+
+.section_impact {
+    background-image: url(../img/Blob-4.png);
+    background-repeat: no-repeat;
+    background-color: #29C3BE;
+    background-position: top right;
+}
+
+.section__img-dog {
+    border-radius: 40px;
+    position: absolute;
+    right: 0;
+    top: -185px;
+}

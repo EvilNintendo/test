@@ -1,0 +1,22 @@
+.button {
+    font-size: 12px;
+    line-height: 24px;
+    padding: 0 35px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 0;
+    border-radius: 12px;
+    background-color: #F2726F;
+    height: 48px;
+    cursor: pointer;
+    filter: drop-shadow(0px 8px 16px rgba(38, 38, 38, 0.24));
+    outline: none;
+}
+
+.button:hover {
+    background-color: #FF7976;
+}
+
+.header__button {
+    height: 40px;
+}
